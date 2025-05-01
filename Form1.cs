@@ -133,9 +133,18 @@ namespace example_ktra2
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ban co muon thoat khong");
-            ActiveForm.Close();
-            DAO.Close();
+            if (MessageBox.Show("Ban co muon thoat khong?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                // user clicked yes
+                ActiveForm.Close();
+                DAO.Close();
+            }
+            else
+            {
+                // user clicked no
+            }
+            //MessageBox.Show("");
+            
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -145,20 +154,30 @@ namespace example_ktra2
                 MessageBox.Show("chua chon dl de xoa");
                 return;
             }
+            
             String MaNVbixoa = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            string sql = "DELETE FROM tblNhanvien WHERE MaNV = " + "'" + MaNVbixoa + "'";
+            if (MessageBox.Show("Ban co muon xoa nhan vien "+MaNVbixoa+" khong?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                // user clicked yes
+                string sql = "DELETE FROM tblNhanvien WHERE MaNV = " + "'" + MaNVbixoa + "'";
 
-            SqlCommand cmd = new SqlCommand(sql, DAO.conn);
-            try
-            {
-                cmd.ExecuteNonQuery();
-                LoadDataToGridview();
-                MessageBox.Show("Xoa thanh cong " + MaNVbixoa + ".");
+                SqlCommand cmd = new SqlCommand(sql, DAO.conn);
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                    LoadDataToGridview();
+                    MessageBox.Show("Xoa thanh cong " + MaNVbixoa + ".");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                // user clicked no
             }
+            
         }
     }
 }
