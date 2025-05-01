@@ -1,0 +1,20 @@
+C:\. net\example_ktra2\bin\Debug\example_ktra2.exe.config
+C:\. net\example_ktra2\bin\Debug\example_ktra2.exe
+C:\. net\example_ktra2\bin\Debug\example_ktra2.pdb
+C:\. net\example_ktra2\obj\Debug\example_ktra2.csproj.AssemblyReference.cache
+C:\. net\example_ktra2\obj\Debug\example_ktra2.Properties.Resources.resources
+C:\. net\example_ktra2\obj\Debug\example_ktra2.csproj.GenerateResource.cache
+C:\. net\example_ktra2\obj\Debug\example_ktra2.csproj.CoreCompileInputs.cache
+C:\. net\example_ktra2\obj\Debug\example_ktra2.exe
+C:\. net\example_ktra2\obj\Debug\example_ktra2.pdb
+C:\. net\example_ktra2\obj\Debug\example_ktra2.Form1.resources
+C:\Users\Admin\Downloads\example_ktra2\bin\Debug\example_ktra2.exe
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.Form1.resources
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.Properties.Resources.resources
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\example_ktra2\bin\Debug\example_ktra2.exe.config
+C:\Users\Admin\Downloads\example_ktra2\bin\Debug\example_ktra2.pdb
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.exe
+C:\Users\Admin\Downloads\example_ktra2\obj\Debug\example_ktra2.pdb
