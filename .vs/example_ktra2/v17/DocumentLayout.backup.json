@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\example_ktra2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|c:\\users\\admin\\downloads\\example_ktra2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\example_ktra2\\QuanLyNhanVien.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyNhanVien.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\example_ktra2\\QuanLyNhanVien.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyNhanVien.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|c:\\users\\admin\\downloads\\example_ktra2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|C:\\Users\\Admin\\Downloads\\example_ktra2\\DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F5D0FD-DFA0-457A-8AD2-A902563DF51B}|example_ktra2.csproj|solutionrelative:DAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DAO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\DAO.cs",
               "RelativeDocumentMoniker": "DAO.cs",
@@ -55,19 +55,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T14:58:53.259Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:46:44.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:46:44.025Z"
             },
             {
               "$type": "Document",
@@ -84,16 +83,16 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAAJ4AAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T03:25:04.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "QuanLyNhanVien.sql",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\QuanLyNhanVien.sql",
               "RelativeDocumentMoniker": "QuanLyNhanVien.sql",
@@ -101,12 +100,11 @@
               "RelativeToolTip": "QuanLyNhanVien.sql",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-01T14:14:43.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:14:43.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\example_ktra2\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:25:14.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T03:25:14.613Z"
             }
           ]
         }

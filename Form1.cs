@@ -83,27 +83,30 @@ namespace example_ktra2
         private void btnLuu_Click(object sender, EventArgs e)
         {
             // kiem tra dl
-            if (txtQueQuan.Text == "")
+            if (txtMaNhanvien.Text == "")
             {
                 MessageBox.Show("chua nhap ma");
             }
-            // luu  
-
-            string sql = "insert into tblNhanVien values (N'" +
+            else
+            {
+                string sql = "insert into tblNhanVien values (N'" +
                         txtMaNhanvien.Text.Trim() + "', N'" + txtHoTen.Text.Trim() + "'," +
                         "N'" + txtQueQuan.Text.Trim() + "')";
 
-            SqlCommand cmd = new SqlCommand(sql, DAO.conn);
-            try
-            {
-                cmd.ExecuteNonQuery();
-                LoadDataToGridview();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            clear();
+                SqlCommand cmd = new SqlCommand(sql, DAO.conn);
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                    LoadDataToGridview();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                clear();
+                btnXoa.Enabled=true;
+                btnSua.Enabled = true;
+            } 
         }
         private void btnSua_Click(object sender, EventArgs e)
         {

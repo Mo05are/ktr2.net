@@ -9,7 +9,7 @@ CREATE TABLE tblNhanvien (
     Hoten NVARCHAR(50),
     Quequan NVARCHAR(100) 
 );
-
+ALTER TABLE tblNhanvien ADD CONSTRAINT PK_disableEmptyString CHECK (MaNV LIKE '_%');
 --THêm dữ liệu
 
 INSERT INTO tblNhanvien (MaNV, Hoten, Quequan)
@@ -19,4 +19,6 @@ VALUES
 ('NV03', N'Lê Chí Tuệ', N'Vĩnh Phúc'),
 ('NV04', N'Lê Thị Hương', N'Nghệ An'),
 ('NV05', N'Hoàng Văn Long', N'Thái Bình');
+
+
 
